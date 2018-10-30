@@ -20,5 +20,8 @@ env:
 before_install:
 
 script:
+  - npm install -g expo-cli@2.2.4
   - yarn install
+
+  - expo login -u @EXPO_USER -p @EXPO_PASS
 
