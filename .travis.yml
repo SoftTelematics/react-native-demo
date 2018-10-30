@@ -18,11 +18,9 @@ env:
 #	- docker
 
 before_install:
+  - npm install -g expo-cli@2.2.4
 
 script:
-  - npm install -g expo-cli@2.2.4
-  - yarn install
-
   - expo login -u $EXPO_LOGIN -p $EXPO_PASS
   - expo publish
 
