@@ -24,4 +24,5 @@ script:
   - yarn install
 
   - expo login -u $EXPO_LOGIN -p $EXPO_PASS
+  - expo publish
 
