@@ -1,0 +1,25 @@
+sudo: required
+
+notifications:
+  email: false
+
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+
+cache:
+  - yarn
+
+env:
+  global:
+    - FOO=foo
+
+#services:
+#	- docker
+
+before_install:
+
+script:
+  - yarn install
+

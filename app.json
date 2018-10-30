@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "inputs",
-    "description": "No description",
-    "slug": "snack-rJmza9rh7",
+    "name": "Soft Telematics Inputs",
+    "description": "Demo project",
+    "slug": "sft-inputs",
     "privacy": "unlisted",
     "sdkVersion": "30.0.0",
     "version": "1.0.0",
