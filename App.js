@@ -27,7 +27,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.paragraph}>
-          Soft Telematics Inputs!
+          Soft Telematics Example
         </Text>
 
         <TabsExample />

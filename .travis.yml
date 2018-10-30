@@ -1,0 +1,19 @@
+sudo: required
+
+notifications:
+  email: false
+
+language: node_js
+node_js:
+  - "10"
+
+cache:
+  - yarn
+
+before_install:
+  - npm install -g expo-cli@2.2.4
+
+script:
+  - expo login -u $EXPO_LOGIN -p $EXPO_PASS
+  - expo publish
+
