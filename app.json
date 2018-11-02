@@ -1,26 +1,25 @@
 {
   "expo": {
-    "name": "Soft Telematics Inputs",
-    "description": "Demo project",
-    "slug": "sft-inputs",
-    "privacy": "unlisted",
+    "name": "markdown-tabs",
+    "description": "This project is really great.",
+    "slug": "markdown-tabs",
+    "privacy": "public",
     "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "primaryColor": "#cccccc",
-    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
-    "loading": {
-      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
-      "hideExponentText": false
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
-    "packagerOpts": {
-      "assetExts": [
-        "ttf",
-        "mp4",
-        "otf",
-        "xml"
-      ]
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     }
