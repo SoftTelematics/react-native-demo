@@ -5,4 +5,4 @@
 
 ## Project
 
-https://expo.io/@softtelematics/sft-inputs
+https://expo.io/@softtelematics/markdown-tabs
